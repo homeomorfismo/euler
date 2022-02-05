@@ -5,6 +5,11 @@ __pycache__/
 
 # C extensions
 *.so
+/*
+!*.c
+!Makefile
+!*/*.py
+!*.py
 
 # Distribution / packaging
 .Python
